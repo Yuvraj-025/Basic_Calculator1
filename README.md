@@ -32,18 +32,7 @@ Getting Started -
     3. Build & Run
          Click the Run button or use Shift+F10.
          Choose a device or emulator
-
-Project Structure - 
-  BasicCalculator/
-  ├── app/
-  │   ├── src/main/
-  │   │   ├── java/com/example/basiccalc/
-  │   │   │   └── MainActivity.kt
-  │   │   └── res/layout/
-  │   │       └── activity_main.xml
-  │   └── AndroidManifest.xml
-  └── build.gradle
-
+         
 Usage - 
 
 1. Tap number buttons to input digits
