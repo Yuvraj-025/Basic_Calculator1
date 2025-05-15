@@ -52,7 +52,6 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <!-- ─── REPLACE YOUR BUTTONS WRAPPER WITH THIS ─────────────────────────── -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/buttonContainer"
         android:layout_width="match_parent"
@@ -61,7 +60,6 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto">
 
-        <!-- Horizontal guidelines (rows) at 0%,20%,40%,60%,80%,100% -->
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/row0" android:orientation="horizontal"
             app:layout_constraintGuide_percent="0" android:layout_height="0dp" android:layout_width="0dp"/>
@@ -81,7 +79,6 @@
             android:id="@+id/row5" android:orientation="horizontal"
             app:layout_constraintGuide_percent="1.0" android:layout_height="0dp" android:layout_width="0dp"/>
 
-        <!-- Vertical guidelines (columns) at 0%,25%,50%,75%,100% -->
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/col0" android:orientation="vertical"
             app:layout_constraintGuide_percent="0" android:layout_height="0dp" android:layout_width="0dp"/>
@@ -98,7 +95,6 @@
             android:id="@+id/col4" android:orientation="vertical"
             app:layout_constraintGuide_percent="1.0" android:layout_height="0dp" android:layout_width="0dp"/>
 
-        <!-- ROW 1 -->
         <Button
             android:id="@+id/btnAC"
             style="@style/buttonnumber"
@@ -138,7 +134,6 @@
             app:layout_constraintBottom_toTopOf="@id/row1"
             app:layout_constraintDimensionRatio="1:1" />
 
-        <!-- ROW 2 -->
         <Button
             android:id="@+id/btn7"
             style="@style/buttonnumber"
@@ -187,7 +182,6 @@
             app:layout_constraintBottom_toTopOf="@id/row2"
             app:layout_constraintDimensionRatio="1:1" />
 
-        <!-- ROW 3 -->
         <Button
             android:id="@+id/btn4"
             style="@style/buttonnumber"
@@ -237,7 +231,6 @@
             app:layout_constraintBottom_toTopOf="@id/row3"
             app:layout_constraintDimensionRatio="1:1" />
 
-        <!-- ROW 4 -->
         <Button
             android:id="@+id/btn1"
             style="@style/buttonnumber"
@@ -286,7 +279,6 @@
             app:layout_constraintBottom_toTopOf="@id/row4"
             app:layout_constraintDimensionRatio="1:1" />
 
-        <!-- ROW 5 -->
         <Button
             android:id="@+id/btn0"
             style="@style/buttonnumber"
@@ -324,7 +316,6 @@
             app:layout_constraintTop_toTopOf="@id/row4"
             app:layout_constraintBottom_toTopOf="@id/row5"
             app:layout_constraintDimensionRatio="2:1" />
-        <!-- note: ratio 2:1 so width = 2×height -->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
